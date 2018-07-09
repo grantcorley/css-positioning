@@ -5,15 +5,53 @@ body{
 }
 
 #bento{
-    min-width: 500px;
+    width:50em;
     min-height: 500px;
-    display:inline-box;
-    border:1px solid red;
+    border:5px solid darkgray;
+    margin: 0 auto;
+    display:block;
+    position: relative;
 }
 
-div{
-    display:inline-block;
-    border:1px solid green;
-    min-width:100px;
-    min-height:100px;
+
+
+#bento div{
+    height:10em;
+    width: 25em;
+    margin:0 !important;
 }
+
+.box1{
+    background-color: orangered;
+    position: absolute;
+    left:0;
+}
+
+.box2{
+    background-color: cornflowerblue;
+    position: absolute;
+    left:25em;
+}
+
+.box3{
+    background-color: darkgreen;
+    position: absolute;
+    left:0;
+    top:10em;
+}
+
+.box4{
+    background-color: darkslateblue;
+    position: absolute;
+    left:25em;
+    top:10em;
+}
+
+h1{
+    color: white;
+    font-size: 3em;
+    margin: 0;
+}
+
+/* Style the <h1> elements so that the font color is white, font size is 3em, and margin is 0. */
+
