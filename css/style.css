@@ -9,8 +9,9 @@ body{
     width:50em;
     height: 20em;
     margin: 0 auto;
-    display: block;
-    position: relative;
+    display: flex;
+    flex-wrap:wrap;
+    
 }
 
 
@@ -19,41 +20,37 @@ body{
     height:10em;
     width: 25em;
     margin:0 !important;
-   
+   display:flex;
+   align-items: center;
+   justify-content: center;
 }
 
 .box1{
     background-color: orangered;
-    position: absolute;
-    left:0;
+   
 }
 
 .box2{
     background-color: cornflowerblue;
-    position: absolute;
-    left:25em;
+    
 }
 
 .box3{
     background-color: darkgreen;
-    position: absolute;
-    left:0;
-    top:10em;
+    
 }
 
 .box4{
     background-color: darkslateblue;
-    position: absolute;
-    left:25em;
-    top:10em;
+    
 }
 
 h1{
     color: white;
     font-size: 3em;
+    /* border:1px dotted white; */
     margin: 0;
-    text-align: center;
-    padding-top:1em;
+ 
     
 }
 
