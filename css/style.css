@@ -5,11 +5,11 @@ body{
 }
 
 #bento{
-    width:50em;
-    min-height: 500px;
     border:5px solid darkgray;
+    width:50em;
+    height: 20em;
     margin: 0 auto;
-    display:block;
+    display: block;
     position: relative;
 }
 
@@ -19,6 +19,7 @@ body{
     height:10em;
     width: 25em;
     margin:0 !important;
+   
 }
 
 .box1{
@@ -51,6 +52,9 @@ h1{
     color: white;
     font-size: 3em;
     margin: 0;
+    text-align: center;
+    padding-top:1em;
+    
 }
 
 /* Style the <h1> elements so that the font color is white, font size is 3em, and margin is 0. */
